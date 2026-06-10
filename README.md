@@ -77,10 +77,10 @@ Slack Confirmation
 ## 📸 Screenshots
 
 ### Architecture Diagram
-![Architecture Diagram](screenshots/ soar_edr_1.png)
+![Architecture Diagram](./screenshots/soar%20edr%201.png)
 
 ### LimaCharlie — Sensor Online
-![Sensor List](screenshots/ soar_edr_2.png)
+![Sensor List](screenshots/soar_edr_2.png)
 
 ### LimaCharlie — Endpoint Details (Pre-Isolation)
 ![Endpoint Pre-Isolation](screenshots/soar_edr_3.png)
