@@ -1,0 +1,38 @@
+# LimaCharlie Detection & Response Rule
+# Name: HackTool - Lazagne
+# Author: Windows-Client
+# MITRE ATT&CK: T1555, T1003 (Credential Access)
+# Severity: High
+# Created: 2026-06-09
+
+detect:
+  events:
+    - NEW_PROCESS
+    - EXISTING_PROCESS
+  op: and
+  rules:
+    - op: is windows
+    - op: or
+      rules:
+        - case sensitive: false
+          op: ends with
+          path: event/FILE_PATH
+          value: LaZagne.exe
+        - case sensitive: false
+          op: contains
+          path: event/COMMAND_LINE
+          value: LaZagne
+
+respond:
+  - action: report
+    metadata:
+      author: Windows-Client
+      description: "Detects execution of LaZagne credential harvesting tool. LaZagne is an open-source application used to retrieve passwords stored on a local computer. Triggers on both file path match and command-line string match."
+      falsepositives:
+        - Legitimate security testing with prior authorization
+      level: high
+      tags:
+        - attack.credential_access
+        - attack.t1555
+        - attack.t1003
+      name: HackTool - Lazagne
