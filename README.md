@@ -80,43 +80,43 @@ Slack Confirmation
 ![Architecture Diagram](./screenshots/soar%20edr%201.png)
 
 ### LimaCharlie — Sensor Online
-![Sensor List](screenshots/soar_edr_2.png)
+![Sensor List](./screenshots/soar%20edr%202.png)
 
 ### LimaCharlie — Endpoint Details (Pre-Isolation)
-![Endpoint Pre-Isolation](screenshots/soar_edr_3.png)
+![Endpoint Pre-Isolation](./screenshots/soar%20edr%203.png)
 
 ### LimaCharlie — Timeline: LaZagne Execution Captured
-![Timeline](screenshots/soar_edr_4.png)
+![Timeline](./screenshots/soar%20edr%204.png)
 
 ### LaZagne Running on Windows Endpoint
-![LaZagne Execution](screenshots/soar_edr_5.png)
+![LaZagne Execution](./screenshots/soar%20edr%205.png)
 
 ### LimaCharlie — Custom D&R Rule (SOC-EDR-Rule)
-![D&R Rule](screenshots/soar_edr_6.png)
+![D&R Rule](./screenshots/soar%20edr%206.png)
 
 ### LimaCharlie — Detection Fired
-![Detection](screenshots/soar_edr_7.png)
+![Detection](./screenshots/soar%20edr%207.png)
 
 ### LimaCharlie — Endpoint Isolated
-![Endpoint Isolated](screenshots/soar_edr_8.png)
+![Endpoint Isolated](./screenshots/soar%20edr%208.png)
 
 ### Tines — User Prompt (Analyst Approval Form)
-![User Prompt](screenshots/soar_edr_9.png)
+![User Prompt](./screenshots/soar%20edr%209.png)
 
 ### Tines — Full SOAR Workflow
-![Tines Workflow](screenshots/soar_edr_10.png)
+![Tines Workflow](./screenshots/soar%20edr%2010.png)
 
 ### Tines — Webhook Events & Detection Payload
-![Tines Events](screenshots/soar_edr_11.png)
+![Tines Events](./screenshots/soar%20edr%2011.png)
 
 ### Tines — Slack Action Configuration
-![Slack Config](screenshots/soar_edr_12.png)
+![Slack Config](./screenshots/soar%20edr%2012.png)
 
 ### Slack — Detection Alert Received
-![Slack Alert](screenshots/soar_edr_13.png)
+![Slack Alert](./screenshots/soar%20edr%2013.png)
 
 ### Gmail — Email Alert Received
-![Email Alert](screenshots/soar_edr_14.png)
+![Email Alert](./screenshots/soar%20edr%2014.png)
 
 ---
 
